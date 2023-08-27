@@ -99,6 +99,7 @@ resource "azurerm_lb" "lb" {
 
 # Define virtual machine
 resource "azurerm_virtual_machine" "vm" {
+  count                 = 2
   name                  = "${var.region}-vm"
   location              = azurerm_resource_group.rg.location
   resource_group_name   = azurerm_resource_group.rg.name
