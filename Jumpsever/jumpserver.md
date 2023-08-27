@@ -1,5 +1,5 @@
 
-![workFlowchart](Screenshot 2023-08-27 093842.png)
+![workFlowchart](Screenshot%2023-08-27%093842.png)
 
 ## Description of the Jumpserver deployment
 
