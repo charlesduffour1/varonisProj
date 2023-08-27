@@ -11,4 +11,4 @@
 -	Set up networking rules for production directory to restrict access to specific regions and grant access to only customers whose IP match the regions where the SQL DB is currently hosted.
 -	Deploy jump server on an Azure virtual machine Scale Set (VMSS) and on the jump server install SQL Server management studio (SSMS) on the SQL DB restrict access to only SQL Server management studio window application | block web access to DB.
 -	When access to the production directory has been granted by the approval manager the dev user accounts can access the jump server which the credentials provided and then from the jump server they can connect to the SQL DB via SQL Server management studio.
--	Set up conditional access reviews (either monthly or weekly) to revoke their views Dev user account access to the production environment stop
+-	Set up conditional access reviews (either monthly or weekly) to revoke the Dev user account access to the production environment stop
